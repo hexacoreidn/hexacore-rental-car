@@ -1,0 +1,449 @@
+{
+  "intents": [
+    {
+      "tag": "hexabot",
+  "patterns":[
+    "Hexabot tuh apa, ya? Saya kurang paham sama istilah itu.",
+    "Bisa kasih tau gak, apa artinya Hexabot dalam bahasa yang lebih sederhana?",
+    "Prosesor Hexabot itu sebenernya buat apa sih dan bedanya sama yang lain?",
+    "Gimana sih spesifikasi Hexabot itu? Apa beda sama prosesor lainnya?",
+    "Kalo Hexabot itu digunakan buat apa aja sih dalam kehidupan sehari-hari?",
+    "Ada nggak kelebihan dari Hexabot yang bikin dia jadi pilihan bagus buat komputer atau gadget?",
+    "Hexabot itu cocoknya buat apa, sih? Misalnya buat gaming atau kerjaan kantoran?",
+    "Ada nggak yang baru dari teknologi Hexabot belakangan ini?",
+    "Hexabot itu bikin boros daya nggak? Atau efisiennya gimana?",
+    "Kalo mau pilih perangkat dengan Hexabot, apa yang harus diperhatiin? Ada tips gak?",
+    "Apasih Hexabot?",
+    "Hexabot tuh apa sebenernya?",
+    "Apa beda Hexabot sama yang lain?",
+    "Buat apa sih sebenernya Hexabot itu?",
+    "Spesifikasi Hexabot gimana sih?",
+    "Hexabot cocoknya buat apa aja?",
+    "Ada kelebihan apa aja dari Hexabot?",
+    "Buat gaming, Hexabot oke nggak?"
+  ], 
+  "responses": [
+    "Hai 👋 biar bot jelaskan yaa Hexabot adalah sebuah platform chatbot yang membantu anda menjawab pertanyaan seputar rental mobil secara cepat dan akurat. Yuk tanya-tanya seputar rental mobil bareng Hexabot!"
+]
+  },
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hai",
+        "Pagi",
+        "Siang",
+        "Sist",
+        "P",
+        "Min",
+        "Halo",
+        "Hai min",
+        "Hai kak",
+        "Halo admin",
+        "Hai, bot!",
+        "Halo, chatbot. Bagaimana cara menggunakan layanan ini?",
+        "Hai, AI cerdas. Tolong bantu saya mencari informasi tentang pemesanan saya.",
+        "Selamat pagi! Saya butuh bantuan dari Anda sekarang.",
+        "Halo, virtual assistant. Apa kabar?",
+        "Hai, chatbot. Saya ingin mengajukan keluhan tentang layanan Anda.",
+        "Selamat datang, bot. Bagaimana cara menghubungi layanan pelanggan Anda?",
+        "Halo, AI pintar. Bisa tolong saya dengan pertanyaan teknis?",
+        "Hai, teman digital. Saya ingin memeriksa status pesanan saya.",
+        "Selamat sore, chatbot. Saya perlu bantuan dengan mengatur akun saya.",
+        "Selamat Pagi kak",
+        "Selamat Malam kak",
+        "Selamat sore min",
+        "Hei, saya butuh bantuan.",
+        "Halo, punya pertanyaan nih.",
+        "Hai, ada sesuatu yang ingin saya tanyakan.",
+        "Yo, apa kabar? Saya ada masalah nih.",
+        "Eh, ada yang ingin saya diskusikan.",
+        "Halo, bisa tolong bantu saya?",
+        "Hei, saya punya pertanyaan.",
+        "Hai, saya agak bingung, bisa dibantu?",
+        "Halo, saya butuh panduan.",
+        "Yo, ada yang bisa saya tanyakan tentang layanan ini?",
+        "Oii",
+        "Yooo",
+        "Yuhuu",
+        "Halo mimin",
+        "Kak aku mau tanya",
+        "Halo kak"
+      ],
+      "responses": [
+        "Halo, terima kasih telah menghubungi rental mobil Hexacore 👋🙂. Perkenalkan, Saya Hexabot yang akan membantu Anda dalam pelayanan pemesanan mobil di rental Hexacore. Ada yang dapat saya bantu?😁 "
+      ]
+    },
+    {
+      "tag": "rent_car_inquiry",
+      "patterns": [
+        "Gimana sih cara pesan mobil ini ?",
+        "Bagaimana langkah-langkahnya untuk memesan mobil di sini?",
+        "Bisa tolong jelaskan proses pemesanan mobil di tempat ini?",
+        "Saya ingin tahu caranya pesan mobil, bisa dijelaskan?",
+        "Apa yang perlu saya lakukan untuk memesan mobil dari Anda?",
+        "Bagaimana caranya untuk mendapatkan mobil sewaan di sini?",
+        "Mohon petunjuk tentang cara memesan mobil dengan layanan Anda.",
+        "Saya ingin tahu langkah-langkah untuk melakukan pemesanan mobil. Bisakah Anda memberikan informasinya?",
+        "Ada panduan tentang cara pesan mobil di sini?",
+        "Saya ingin memesan mobil, tolong beritahu saya caranya.",
+        "Mohon informasi mengenai proses pemesanan mobil di tempat Anda.",
+        "Jadi, bagaimana caranya bikin booking mobil di sini?",
+        "Gimana nih, buat pesan mobil disini?",
+        "Cara pesan mobil gini, apa ya?",
+        "Aku bingung, bagaimana cara booking mobil di sini?",
+        "Numpang nanya, biar bisa sewa mobil, apa langkahnya?",
+        "Jadi begini, aku mau pesen mobil. Ada tipsnya?",
+        "Gak paham nih, cara pesen mobil gimana ya?",
+        "Mau dong, tolong kasih tau cara pesan mobil di sini.",
+        "Jadi begini, cara pesen mobil itu seperti apa ya?",
+        "Aku butuh bantuan, cara pesan mobil di sini bagaimana ya?",
+        "Sewanya sudah termasuk supir belum ya?",
+        "Saya butuh supir, apa ada?",
+        "Apakah sudah termasuk supir dan perbaikan jika terjadi kerusakan di jalan?",
+        "Saya akan melakukan perjalanan jauh, bisa sediakan supir?",
+        "Saya merasa kurang fit, saya butuh supir.",
+        "Saya tidak hafal jalan, apa ada bantuan supir?",
+        "Apa ada layanan tambahan seperti supir?",
+        "Supirnya ada gak ya kak?",
+        "Kak saya gak bisa mengemudi, apa ada driver?",
+        "Saya tidak punya sim, apa ada supir?",
+        "Barangkali bisa disediakan supir min?",
+        "Kalau saya butuh supir bisa dicek dimana ya?",
+        "Min, bagaimana saya bisa menghubungi supir untuk membantu saya?",
+        "Apakah saya perlu menambah biaya untuk bantuan supir?",
+        "Bagaimana prosedur pembayaran untuk layanan supir?",
+        "Apa ada batasan usia untuk meggunakan bantuan supir dari Hexacore?",
+        "Apa ada supir yang bisa jadi tour guide?",
+        "Apa ada supir yang mengantar jemput saya?",
+        "Apa supir bisa membantu saya untuk mengangkat barang-barang saya?",
+        "Apa supirnya sudah berpengalaman?",
+        "Saya butuh tambahan supir, apakah tersedia?"
+      ],
+      "responses": [
+        "Untuk informasi lebih lanjut mengenai teknis pemesanan dan pengembalian mobil, silakan hubungi kami di nomor kontak berikut: Zakiy Yusron - 089647458999, atau email ke hexacoreidn@gmail.com"
+      ]
+    },
+    {
+      "tag": "car_types",
+      "patterns": [
+        "Apa jenis mobil yang tersedia?",
+        "Ada pilihan mobil apa saja?",
+        "Saya ingin tahu jenis mobil yang bisa saya sewa.",
+        "Mobil apa yang dapat saya pilih?",
+        "Apa saja opsi mobil yang ada?",
+        "Ada jenis mobil apa saja yang ditawarkan?",
+        "Apakah ada variasi mobil yang tersedia?",
+        "Saya bisa memilih dari jenis mobil apa saja?",
+        "Jenis kendaraan apa yang tersedia?",
+        "Apa pilihan mobil yang ada di daftar?",
+        "Apakah ada beragam mobil yang dapat dipilih?",
+        "Bagaimana variasi mobil yang ditawarkan?",
+        "Bisakah Anda memberikan daftar jenis mobil yang tersedia?",
+        "Ada mobil apa aja yang bisa dipilih?",
+        "Bisa tahu jenis mobil yang ada di sini?",
+        "Mobil apa yang lagi ready?",
+        "Jadi, apa saja pilihannya buat mobil?",
+        "Mau tanya, jenis mobil yang tersedia apa aja nih?",
+        "Coba kasih tau, ada jenis mobil apa aja yang bisa disewa?",
+        "Gimana nih, mobil-mobil yang lagi ready?",
+        "Ada mobil yang bagus buat direkomendasikan?",
+        "Bisa dijelasin, jenis mobil yang ada di stok?",
+        "Jadi begini, mobil apa yang lagi available buat disewa?"
+      ],
+      "responses": [
+        "Hai! Silahkan untuk mengunjungi tampilan Dashboard kami untuk mengetahui info terkait lebih lengkap 🙂"
+      ]
+    },
+    {
+      "tag": "rental_duration",
+      "patterns": [
+        "Berapa lama durasi yang tersedia pada rental mobil ini ?",
+        "Apa yang menjadi durasi sewa maksimum yang tersedia untuk mobil ini?",
+        "Bisakah Anda memberikan informasi mengenai lama sewa yang diizinkan untuk kendaraan ini?",
+        "Bagaimana kebijakan durasi sewa untuk mobil yang tersedia?",
+        "Adakah batasan waktu tertentu yang berlaku pada penyewaan mobil ini?",
+        "Berapa lama saya dapat menyewa mobil ini sebelum dikenakan biaya tambahan?",
+        "Apakah terdapat pilihan waktu sewa yang berbeda-beda untuk kendaraan ini?",
+        "Dapatkah Anda menjelaskan mengenai ketentuan terkait durasi sewa mobil ini?",
+        "Apakah ada perbedaan dalam tarif berdasarkan lama sewa yang dipilih?",
+        "Bagaimana aturan perpanjangan sewa jika saya membutuhkan mobil lebih lama dari yang telah saya rencanakan?",
+        "Bisakah Anda memberikan informasi lebih lanjut mengenai fleksibilitas durasi sewa untuk mobil ini?",
+        "Mobil ini bisa dipake berapa lama sih?",
+        "Ada batasan waktu sewanya gak?",
+        "Kita bisa nyewa mobilnya sehari berapa jam?",
+        "Berapa lama mobilnya bisa dipake?",
+        "Apa kebijakannya kalau mau nyewa mobil lama?",
+        "Kalau butuh mobilnya lebih lama dari rencana, gimana caranya?",
+        "Durasi sewa bisa diubah-ngubah gak?",
+        "Apa ada peraturan khusus soal berapa lama kita bisa nyewa mobil?",
+        "Kalau mau perpanjang sewa, ada biaya ekstra nggak?",
+        "Gimana caranya jika kita butuh mobil lebih lama dari yang sudah direncanakan?"
+      ],
+      "responses": [
+        "Terkait durasi penyewaan mobil di Rental Hexacore tidak ada ketentuan durasi sewa maksimum dengan ketentuan tarif per 24 jam."
+      ]
+    },
+    {
+      "tag": "pricing_inquiry",
+      "patterns": [
+        "Bagaimana cara membayar mobil sewaan ?",
+        "Gimana caranya bayar mobil sewaannya?",
+        "Cara bayarnya buat mobil sewaan gini, ya?",
+        "Mau tanya, cara bayar mobil sewaan itu gimana?",
+        "Eh, bagaimana cara bayar mobil sewaannya?",
+        "Ada tips buat bayar mobil sewaan gak?",
+        "Jadi, gimana proses bayarnya buat mobil sewaan?",
+        "Cara bayar mobil sewaan di tempat kamu apa ya?",
+        "Hei, gimana nih, caranya bayar mobil sewaan?",
+        "Yo, cara bayar mobil sewaan itu apa, ya?",
+        "Eh, ada yang bisa kasih tau cara bayar mobil sewaan gak?",
+        "Bisakah Anda menjelaskan prosedur pembayaran untuk mobil sewaan?",
+        "Mohon petunjuk mengenai metode pembayaran yang diterima untuk mobil sewaan.",
+        "Bagaimana langkah-langkahnya untuk melakukan pembayaran sewa mobil?",
+        "Saya ingin mengetahui proses pembayaran yang berlaku untuk mobil yang saya sewa.",
+        "Apakah Anda dapat memberikan informasi rinci tentang cara membayar sewa mobil di sini?",
+        "Saya ingin memahami opsi pembayaran yang tersedia untuk layanan sewa mobil Anda.",
+        "Tolong jelaskan metode pembayaran yang bisa saya gunakan untuk mobil sewaan.",
+        "Bagaimana prosedur pembayaran mobil sewaan di perusahaan Anda?",
+        "Mohon berikan panduan mengenai pembayaran sewa mobil.",
+        "Saya perlu informasi tentang kebijakan pembayaran untuk mobil yang saya sewa. Bisakah Anda membantu?"
+      ],
+      "responses": [
+        "Untuk informasi lebih lanjut mengenai teknis pemesanan dan pengembalian mobil, silakan hubungi kami di nomor kontak berikut: Zakiy Yusron - 089647458999,  atau email ke hexacoreidn@gmail.com"
+      ]
+    },
+    {
+      "tag": "booking_confirmation",
+      "patterns": [
+        "Saya ingin melakukan pemesanan mobil.",
+        "Saya ingin memesan mobil.",
+        "Saya ingin menyewa mobil.",
+        "Saya ingin mengonfirmasi pemesanan mobil.",
+        "Saya telah melakukan pemesanan mobil.",
+        "Pemesanan mobil saya.",
+        "Sudahkah mobil saya dipesan?",
+        "Apakah mobil saya sudah dijadwalkan?",
+        "Tolong konfirmasi pemesanan mobil saya.",
+        "Saya memerlukan konfirmasi untuk pemesanan mobil.",
+        "Bisakah Anda memeriksa status pemesanan mobil saya?",
+        "Pemesanan saya untuk mobil.",
+        "Sudahkah mobil saya siap?",
+        "Saya ingin memeriksa pemesanan mobil saya.",
+        "Apakah pemesanan mobil saya telah diproses?",
+        "Tolong beri saya konfirmasi pemesanan mobil.",
+        "Saya ingin tahu apakah mobil sudah dijadwalkan.",
+        "Apakah mobil saya sudah dipesan?",
+        "Bisakah Anda memeriksa status pemesanan saya?",
+        "Pemesanan saya untuk mobil.",
+        "Sudahkah mobil saya siap?",
+        "Saya ingin memeriksa pemesanan saya.",
+        "Apakah pemesanan saya sudah diproses?"
+      ],
+      "responses": [
+        "Untuk informasi lebih lanjut , silakan hubungi kami di nomor kontak berikut yaa 😁 Zakiy Yusron 089647458999,  atau email ke hexacoreidn@gmail.com"
+      ]
+    },
+    {
+      "tag": "additional_services",
+      "patterns": [
+        "Apakah ada opsi untuk menyewa supir?",
+        "Bisakah saya mendapatkan asuransi tambahan?",
+        "Apakah ada layanan tambahan yang tersedia?",
+        "Sewanya sudah termasuk supir belum ya?",
+        "Saya butuh supir, apa ada?",
+        "Apakah sudah termasuk supir dan perbaikan jika terjadi kerusakan di jalan?",
+        "Saya akan melakukan perjalanan jauh, bisa sediakan supir?",
+        "Saya merasa kurang fit, saya butuh supir.",
+        "Saya tidak hafal jalan, apa ada bantuan supir?",
+        "Apa ada layanan tambahan seperti supir?",
+        "Supirnya ada gak ya kak?",
+        "Kak saya gak bisa mengemudi, apa ada driver?",
+        "Saya tidak punya sim, apa ada supir?",
+        "Barangkali bisa disediakan supir min?",
+        "Kalau saya butuh supir bisa dicek dimana ya?",
+        "Min, bagaimana saya bisa menghubungi supir untuk membantu saya?",
+        "Apakah saya perlu menambah biaya untuk bantuan supir?",
+        "Bagaimana prosedur pembayaran untuk layanan supir?",
+        "Apa ada batasan usia untuk meggunakan bantuan supir dari Hexacore?",
+        "Apa ada supir yang bisa jadi tour guide?",
+        "Apa ada supir yang mengantar jemput saya?",
+        "Apa supir bisa membantu saya untuk mengangkat barang-barang saya?",
+        "Apa supirnya sudah berpengalaman?",
+        "Saya butuh tambahan supir, apakah tersedia?"
+      ],
+      "responses": [
+        "Mohon maaf atas ketidaknyamanannya, saat ini Hexacore hanya menyediakan penyewaan mobil tidak termasuk supir."
+      ]
+    },
+    {
+      "tag": "car_return",
+      "patterns": [
+        "Bagaimana cara mengembalikan mobil sewaan?",
+        "Apa langkah-langkah yang harus diikuti untuk mengembalikan mobil sewaan dengan benar?",
+        "Mohon berikan panduan lengkap tentang prosedur pengembalian mobil sewaan.",
+        "Bagaimana proses pengembalian mobil sewaan di tempat Anda?",
+        "Saya ingin memahami kebijakan dan prosedur pengembalian mobil sewaan secara detail.",
+        "Bisakah Anda menjelaskan tata cara yang berlaku untuk mengembalikan mobil sewaan?",
+        "Saya butuh informasi tentang jam operasional dan tempat pengembalian mobil sewaan.",
+        "Apakah ada persyaratan khusus yang perlu diperhatikan saat mengembalikan mobil?",
+        "Mohon berikan instruksi mengenai apa yang harus dilakukan saat mengembalikan mobil sewaan.",
+        "Apa yang harus saya perhatikan ketika mengembalikan mobil sewaan agar sesuai dengan ketentuan?",
+        "Tolong jelaskan dengan rinci langkah-langkah yang perlu saya ikuti saat mengembalikan mobil sewaan.",
+        "Gimana nih, caranya balikin mobil sewaan?",
+        "Cara kembalikan mobil sewaan itu gampang, kan?",
+        "Eh, bagaimana prosedurnya buat nerima mobilnya lagi?",
+        "Ada tips buat balikin mobil sewaan dengan baik?",
+        "Jadi begini, bagaimana langkah-langkahnya buat mengembalikan mobil sewaan?",
+        "Hei, gimana caranya nyerahin mobil sewaan?",
+        "Cara balikin mobilnya itu gimana, ya?",
+        "Yo, ada yang bisa kasih tau caranya balikin mobil sewaan gak?",
+        "Eh, apa yang perlu dilakuin buat nerima mobil sewaan lagi?",
+        "Gimana caranya, ya, balikin mobil sewaan dengan benar?"
+      ],
+      "responses": [
+        "Untuk nformasi lebih lanjut kamu bisa hubungi kontak di bawah ini ya 😀 Zakiy Yusron - 089647458999, atau email ke hexacoreidn@gmail.com"
+      ]
+    },
+    {
+      "tag": "cancellation_policy",
+      "patterns": [
+        "Bagaimana cara membatalkan pesanan rental mobil?",
+        "Apa langkah-langkah yang harus saya ikuti untuk membatalkan pesanan rental mobil?",
+        "Bisakah Anda memberikan panduan mengenai prosedur pembatalan pemesanan mobil sewaan?",
+        "Bagaimana prosedur resmi untuk menggugurkan reservasi rental mobil?",
+        "Apakah terdapat kebijakan tertentu yang harus saya patuhi saat membatalkan pesanan rental mobil?",
+        "Bisakah Anda menjelaskan persyaratan dan ketentuan yang terkait dengan pembatalan pemesanan kendaraan?",
+        "Adakah biaya pembatalan yang berlaku jika saya ingin membatalkan pemesanan mobil?",
+        "Apakah ada tenggat waktu tertentu yang harus saya perhatikan saat memutuskan untuk membatalkan pesanan rental mobil?",
+        "Dapatkah Anda memberikan informasi lebih lanjut mengenai kebijakan pembatalan dan pengembalian dana dalam kasus ini?",
+        "Bagaimana saya dapat mengajukan permohonan pembatalan untuk pesanan rental mobil saya?",
+        "Apakah ada formulir khusus atau prosedur tertentu yang harus saya ikuti untuk memulai proses pembatalan pemesanan rental mobil?",
+        "Gimana caranya cancel pesanan rental mobil?",
+        "Ada prosedur khusus buat batalin rental mobil?",
+        "Bagaimana caranya menggugurkan pemesanan mobil sewaan?",
+        "Apa langkah-langkahnya buat membatalkan pesanan rental mobil?",
+        "Bagaimana aku bisa membatalkan reservasi mobil?",
+        "Bisa kasih tau cara nge-cancel pesanan rental mobil gak?",
+        "Kalau mau batalin rental mobil, harus ngapain ya?",
+        "Gimana caranya membatalkan pemesanan mobil sewaan?",
+        "Apakah ada biaya pembatalan untuk rental mobil?",
+        "Ada syarat khusus yang harus diikuti untuk membatalkan pesanan rental mobil?"
+      ],
+      "responses": [
+        "Mohon maaf atas ketidaknyamanan Anda, untuk pembatalan pemesanan sesuai dengan ketentuan yang berlaku sebelum Anda melakukan pemesanan, yaitu pengembalian dana sebesar 80% dari total biaya pemesanan Anda jika pembatalan dilakukan H-1 penyewaan mobil"
+      ]
+    },
+    {
+      "tag": "contact_information",
+      "patterns": [
+        "Melalui informasi kontak manakah untuk memberi tahu konfirmasi pemesanan ini?",
+        "Mohon berikan saya informasi kontak yang tepat untuk mengkonfirmasi pemesanan ini.",
+        "Bisakah Anda menyediakan rincian kontak yang dapat saya gunakan untuk memberikan konfirmasi atas pemesanan ini?",
+        "Saya ingin memastikan bahwa saya menggunakan saluran komunikasi yang benar untuk memberikan konfirmasi. Apa alamat atau nomor yang harus saya hubungi?",
+        "Apakah Anda dapat memberikan rincian kontak yang diperlukan untuk proses konfirmasi pemesanan ini?",
+        "Bagaimana saya seharusnya menghubungi Anda untuk memastikan pemesanan ini telah dikonfirmasi dengan benar?",
+        "Tolong informasikan cara terbaik untuk memberikan konfirmasi atas pesanan ini melalui informasi kontak yang relevan.",
+        "Saya ingin memastikan bahwa konfirmasi pesanan saya tiba dengan baik. Apakah Anda bisa memberikan alamat email atau nomor telepon yang sesuai?",
+        "Bisakah Anda memberikan petunjuk tentang bagaimana melalui informasi kontak mana saya harus memberikan konfirmasi pemesanan ini?",
+        "Dapatkah Anda berikan saya informasi kontak yang diperlukan untuk mengonfirmasi pesanan ini sesuai prosedur yang berlaku?",
+        "Apakah ada instruksi tertentu atau preferensi dalam hal kontak yang sebaiknya saya gunakan untuk memberikan konfirmasi atas pemesanan ini?",
+        "Cara nyamperin buat konfirmasi pemesanan gini gimana ya?",
+        "Kita bisa ngabarin lewat mana buat konfirmasi pesenan?",
+        "Alamat kontak yang dipake buat kasih tau kalo kita mau konfirmasi pesenan apa ya?",
+        "Kalau mau ngecek pemesanan, tinggal hubungin gimana caranya?",
+        "Bisa kasih tau aku nomor atau alamat apa yang digunakan buat konfirmasi pesenan ini?",
+        "Gimana cara termudah buat ngabarin kalo pesenannya udah fix?",
+        "Kalau mau konfirmasi pesenan, aku harus hubungi lewat media sosial atau email?",
+        "Ada nomor telepon atau email yang bisa aku hubungi untuk kasih tau konfirmasi pesenan?",
+        "Kalo butuh ngabarin, gimana caranya supaya pasti sampai?",
+        "Tolong beri tahu aku cara tercepat buat konfirmasi pesenan ini, ya."
+      ],
+      "responses": [
+        "Silahkan konfirmasi pada kontak di bawah ini ya! 😁 Zakiy Yusron - 089647458999, atau email ke hexacoreidn@gmail.com"
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "Terima kasih!",
+        "Sangat membantu, terima kasih!",
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih atas bantuannya.",
+        "Saya sangat menghargai bantuan Anda.",
+        "Terima kasih banyak!",
+        "Sangat terima kasih.",
+        "Anda sangat membantu!",
+        "Saya berterima kasih atas bantuan ini.",
+        "Terima kasih untuk semua bantuan Anda.",
+        "Sangat berterima kasih atas kerja sama Anda.",
+        "Saya mengucapkan terima kasih yang sebesar-besarnya.",
+        "Terima kasih atas waktu dan perhatiannya.",
+        "Terima kasih untuk semua usahanya.",
+        "Saya ingin menyampaikan rasa terima kasih.",
+        "Saya tidak tahu apa yang akan saya lakukan tanpa Anda!",
+        "Anda adalah penyelamat saya. Terima kasih!",
+        "Saya tidak bisa cukup mengucapkan terima kasih.",
+        "Saya sangat bersyukur atas bantuannya.",
+        "Terima kasih atas dukungannya.",
+        "Saya sangat senang dengan bantuan Anda.",
+        "Terima kasih telah mempermudah segalanya.",
+        "Saya sangat bersyukur atas semua bantuan Anda."
+      ],
+      "responses": [
+        "Terima kasih telah menggunakan Hexabot pada pemesanan sewa mobil di Rental Hexacore! Semoga hari Anda menyenangkan."
+      ]
+    },
+    {
+      "tag": "special_offers",
+      "patterns": [
+        "Apakah ada diskon di sini?",
+        "Apakah ada penawaran khusus di sini?",
+        "Apakah ada potongan harga yang tersedia?",
+        "Apakah ada promosi saat ini?",
+        "Apakah ada kesempatan untuk mendapatkan harga lebih murah?",
+        "Apakah ada diskon yang bisa saya manfaatkan?",
+        "Apakah ada penawaran istimewa di tempat ini?",
+        "Apakah ada program loyalty atau penghargaan untuk pelanggan?",
+        "Apakah ada voucher atau kupon yang bisa digunakan?",
+        "Apakah ada harga spesial untuk anggota?",
+        "Apakah ada penawaran khusus untuk pembelian dalam jumlah besar?",
+        "Ada diskon kah di sini?",
+        "Bisa dapat harga lebih murah gak?",
+        "Lagi ada promo gak?",
+        "Ada tawaran spesial apa-apa gak?",
+        "Ada kode promo yang bisa dipake?",
+        "Buat customer setia, ada bonusnya gak?",
+        "Dikasih harga teman gak?",
+        "Ada deal istimewa gak?",
+        "Ada potongannya buat kita?",
+        "Ada program diskon buat pelanggan setia nggak?"
+      ],
+      "responses": [
+        "Ada dong! Berikut informasi diskon Hexacore! Dengan memperingati hari Raya Idul Fitri/Natal/Idul Adha/Imlek/Waisak/Tahun Baru, discount yang kami tawarkan sebesar 20%. Berlaku mulai dari tanggal 1 - (29/30/31) (Januari/Februari/Maret/April/Mei/Juni/Juli/Agustus/September/Oktober/November/Desember)."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "Saya ingin memberikan umpan balik tentang layanan Anda.",
+        "Bagaimana umpan balikmu dengan penyewaan rental mobi di layanan Hexacore ini ?",
+        "Bagaimana pengalamanmu menggunakan layanan rental mobil dari Hexacore?",
+        "Apa pendapatmu tentang penyewaan mobil melalui Hexacore?",
+        "Gimana impresimu setelah menyewa mobil dari Hexacore?",
+        "Apakah kamu puas dengan layanan rental mobil Hexacore?",
+        "Bagaimana tanggapanmu terhadap pengalaman menyewa mobil di Hexacore?",
+        "Bagaimana penilaianmu terhadap layanan rental mobil Hexacore?",
+        "Apa yang bisa kamu ceritakan tentang pengalamanmu menggunakan Hexacore untuk rental mobil?",
+        "Bagaimana kesanmu setelah menggunakan layanan rental mobil dari Hexacore?",
+        "Bisakah kamu berbagi feedback tentang penyewaan mobil di Hexacore?",
+        "Apakah kamu memiliki komentar atau saran untuk Hexacore terkait penyewaan mobil?"
+      ],
+      "responses": [
+        "Kami sangat menghargai umpan balik Anda! Silakan beri tahu kami apa yang dapat kami perbaiki atau apa yang Anda sukai dari layanan kami."
+      ]
+    }
+  ]
+}
